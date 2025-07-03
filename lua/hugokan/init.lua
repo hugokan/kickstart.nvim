@@ -8,7 +8,7 @@ vim.opt.smartindent = true
 
 vim.keymap.set('n', '<C-e>', ':Neotree<CR>', { noremap = true, silent = true, desc = 'Open N[e]otree' })
 vim.keymap.set('i', '<C-e>', '<Esc>:w<CR>:Neotree<CR>', { noremap = true, silent = true, desc = 'Open N[e]otree' })
-
+vim.keymap.set('n', '<leader>gg', ':LazyGit<CR>', { noremap = true, silent = true, desc = 'Open [G]it' })
 vim.keymap.set('n', '<C-p>', ':bp<CR>', { noremap = true, silent = true, desc = '[P]revius file' })
 
 vim.keymap.set('n', '<C-s>', function()
